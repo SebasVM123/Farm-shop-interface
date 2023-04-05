@@ -1,0 +1,92 @@
+*{font-family: "Gill Sans MT";}
+
+QDialog{
+    background-color: rgb(231, 202, 143, 0.7);
+}
+
+ListaFacturasWindow QPushButton{
+    background-color: rgb(61, 123, 110);
+    border-radius: 3px;
+    font-size: 9pt;
+}
+
+ListaFacturasWindow QPushButton:hover{
+    background-color: rgb(123, 200, 183);
+}
+
+RegistrarClientePopUp QLabel{
+    font-size: 12pt;
+}
+
+RegistrarClientePopUp QLineEdit{
+    background-color: rgb(186, 223, 51);
+    border-radius: 3px;
+    font: 12pt;
+}
+
+RegistrarClientePopUp QPushButton{font: 12pt; border-radius: 3px;}
+
+FacturaWindow{
+    font-family: OCR-A Regular;
+    background-color: rgb(224, 226, 210);
+}
+
+FacturaWindow QLabel{
+    font: 16pt "OCR-A";
+}
+
+QMainWindow{
+    background-color: rgb(187, 120, 33);
+    background-image: url(Interfaz/campo1.png);
+}
+
+.QGroupBox{
+    background-color: rgb(231, 202, 143, 0.7);
+    border-radius: 6px
+}
+
+#groupBox3{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+#groupBox2 QLineEdit{
+    background-color: rgb(133, 147, 39);
+    border-radius: 3px;
+    font: 12pt;
+}
+
+QPushButton{
+    background-color: rgb(133, 147, 39);
+}
+
+QPushButton:hover{
+    background-color: rgb(186, 223, 51);
+}
+
+#pushButtonPagar{
+    border-radius: 3px;
+}
+
+#pushButtonNuevaCompra{
+    background-color: rgb(61, 123, 110);
+    border-radius: 3px;
+}
+
+#pushButtonNuevaCompra:hover{
+    background-color: rgb(123, 200, 183);
+}
+
+#groupBox QPushButton{
+    image: url(Interfaz/carrito.png);
+    border-radius: 0px;
+}
+
+#pushButtonFacturas{
+    background-color: rgb(61, 123, 110);
+    border-radius: 3px;
+}
+
+#pushButtonFacturas:hover{
+    background-color: rgb(123, 200, 183);
+}

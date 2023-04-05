@@ -1,0 +1,1180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>870</width>
+    <height>616</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>870</width>
+    <height>616</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>870</width>
+    <height>616</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>TIENDA AGRÍCOLA</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(187, 120, 33);
+font: 12pt &quot;Gill Sans MT&quot;;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="labelTitle">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>321</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Gill Sans MT&quot;;</string>
+    </property>
+    <property name="text">
+     <string>TIENDA AGRÍCOLA</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>851</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QWidget" name="layoutWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>831</width>
+       <height>233</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayoutProductos">
+      <item row="0" column="2">
+       <widget class="QLabel" name="labelFertilizantesColumn">
+        <property name="minimumSize">
+         <size>
+          <width>272</width>
+          <height>31</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>272</width>
+          <height>31</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius: 0px;
+background-color: rgb(133, 147, 39);
+font: 12pt &quot;Gill Sans MT&quot;;</string>
+        </property>
+        <property name="text">
+         <string> FERTILIZANTES</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="labelAntibioticosColumn">
+        <property name="minimumSize">
+         <size>
+          <width>272</width>
+          <height>31</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>272</width>
+          <height>31</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Gill Sans MT&quot;;
+background-color: rgb(133, 147, 39);
+border-radius: 0px
+</string>
+        </property>
+        <property name="text">
+         <string>  ANTIBIÓTICOS</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLabel" name="labelPlagasColumn">
+        <property name="minimumSize">
+         <size>
+          <width>273</width>
+          <height>31</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>273</width>
+          <height>31</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius: 0px;
+font: 12pt &quot;Gill Sans MT&quot;;
+background-color: rgb(133, 147, 39);</string>
+        </property>
+        <property name="text">
+         <string> CONTROL DE PLAGAS</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="2">
+       <layout class="QGridLayout" name="gridLayout15">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label15">
+          <property name="styleSheet">
+           <string notr="true">border-radius: 0px;
+font: 10pt &quot;Gill Sans MT&quot;;
+background-color: rgb(186, 223, 51);</string>
+          </property>
+          <property name="text">
+           <string>  DAVALIA® Abono Orquídeas X 500ml</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QPushButton" name="pushButton15">
+          <property name="minimumSize">
+           <size>
+            <width>32</width>
+            <height>23</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>32</width>
+            <height>23</height>
+           </size>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="4" column="2">
+       <layout class="QGridLayout" name="gridLayout16">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label16">
+          <property name="styleSheet">
+           <string notr="true">border-radius: 0px;
+font: 10pt &quot;Gill Sans MT&quot;;
+background-color: rgb(186, 223, 51);</string>
+          </property>
+          <property name="text">
+           <string>  DAVALIA® Fertilizante Floración X 800g</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QPushButton" name="pushButton16">
+          <property name="minimumSize">
+           <size>
+            <width>32</width>
+            <height>23</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>32</width>
+            <height>23</height>
+           </size>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="6" column="2">
+       <layout class="QGridLayout" name="gridLayout18">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label18">
+          <property name="styleSheet">
+           <string notr="true">border-radius: 0px;
+font: 10pt &quot;Gill Sans MT&quot;;
+background-color: rgb(186, 223, 51);</string>
+          </property>
+          <property name="text">
+           <string>  FORZA® Fertilizante Oscomote X 2Kg</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QPushButton" name="pushButton18">
+          <property name="minimumSize">
+           <size>
+            <width>32</width>
+            <height>23</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>32</width>
+            <height>23</height>
+           </size>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="5" column="2">
+       <layout class="QGridLayout" name="gridLayout17">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label17">
+          <property name="styleSheet">
+           <string notr="true">border-radius: 0px;
+font: 10pt &quot;Gill Sans MT&quot;;
+background-color: rgb(186, 223, 51);</string>
+          </property>
+          <property name="text">
+           <string>  FORZA® Fertilizante Triple 15 X 1Kg</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QPushButton" name="pushButton17">
+          <property name="minimumSize">
+           <size>
+            <width>32</width>
+            <height>23</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>32</width>
+            <height>23</height>
+           </size>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="3" column="1">
+       <layout class="QGridLayout" name="gridLayout9">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label9">
+          <property name="styleSheet">
+           <string notr="true">border-radius: 0px;
+font: 10pt &quot;Gill Sans MT&quot;;
+background-color: rgb(186, 223, 51);</string>
+          </property>
+          <property name="text">
+           <string>  NUFARM® Clorpirifos 480 X 1Lt</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QPushButton" name="pushButton9">
+          <property name="minimumSize">
+           <size>
+            <width>32</width>
+            <height>23</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>32</width>
+            <height>23</height>
+           </size>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="4" column="1">
+       <layout class="QGridLayout" name="gridLayout10">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label10">
+          <property name="styleSheet">
+           <string notr="true">border-radius: 0px;
+font: 10pt &quot;Gill Sans MT&quot;;
+background-color: rgb(186, 223, 51);</string>
+          </property>
+          <property name="text">
+           <string>  BAYER® Larvin 375SC X 1Lt</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QPushButton" name="pushButton10">
+          <property name="minimumSize">
+           <size>
+            <width>32</width>
+            <height>23</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>32</width>
+            <height>23</height>
+           </size>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="2" column="1">
+       <layout class="QGridLayout" name="gridLayout8">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label8">
+          <property name="styleSheet">
+           <string notr="true">border-radius: 0px;
+font: 10pt &quot;Gill Sans MT&quot;;
+background-color: rgb(186, 223, 51);</string>
+          </property>
+          <property name="text">
+           <string>  DOW® Closer 240SC X 1Lt</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QPushButton" name="pushButton8">
+          <property name="minimumSize">
+           <size>
+            <width>32</width>
+            <height>23</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>32</width>
+            <height>23</height>
+           </size>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="5" column="1">
+       <layout class="QGridLayout" name="gridLayout11">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label11">
+          <property name="styleSheet">
+           <string notr="true">border-radius: 0px;
+font: 10pt &quot;Gill Sans MT&quot;;
+background-color: rgb(186, 223, 51);</string>
+          </property>
+          <property name="text">
+           <string>  BAYER® Sencor SC480 X 1Lt</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QPushButton" name="pushButton11">
+          <property name="minimumSize">
+           <size>
+            <width>32</width>
+            <height>23</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>32</width>
+            <height>23</height>
+           </size>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="1" column="2">
+       <layout class="QGridLayout" name="gridLayout13">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label13">
+          <property name="styleSheet">
+           <string notr="true">font: 10pt &quot;Gill Sans MT&quot;;
+background-color: rgb(186, 223, 51);
+border-radius: 0px;</string>
+          </property>
+          <property name="text">
+           <string>  FORZA® Urea X 1Kg</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QPushButton" name="pushButton13">
+          <property name="minimumSize">
+           <size>
+            <width>32</width>
+            <height>23</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>32</width>
+            <height>23</height>
+           </size>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="2" column="2">
+       <layout class="QGridLayout" name="gridLayout14">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label14">
+          <property name="styleSheet">
+           <string notr="true">border-radius: 0px;
+font: 10pt &quot;Gill Sans MT&quot;;
+background-color: rgb(186, 223, 51);</string>
+          </property>
+          <property name="text">
+           <string>  ANASAC® Fertilizante Pastos X 500g</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QPushButton" name="pushButton14">
+          <property name="minimumSize">
+           <size>
+            <width>32</width>
+            <height>23</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>32</width>
+            <height>23</height>
+           </size>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="6" column="1">
+       <layout class="QGridLayout" name="gridLayout12">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label12">
+          <property name="styleSheet">
+           <string notr="true">border-radius: 0px;
+font: 10pt &quot;Gill Sans MT&quot;;
+background-color: rgb(186, 223, 51);</string>
+          </property>
+          <property name="text">
+           <string>  SYNGENTA® Amistar 50WG X 40g</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QPushButton" name="pushButton12">
+          <property name="minimumSize">
+           <size>
+            <width>32</width>
+            <height>23</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>32</width>
+            <height>23</height>
+           </size>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="1" column="0">
+       <layout class="QGridLayout" name="gridLayout1">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label1">
+          <property name="styleSheet">
+           <string notr="true">font: 10pt &quot;Gill Sans MT&quot;;
+background-color: rgb(186, 223, 51);
+border-radius: 0px;
+</string>
+          </property>
+          <property name="text">
+           <string>  KYROVET® Kyrotilm Oral X 240ml</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QPushButton" name="pushButton1">
+          <property name="minimumSize">
+           <size>
+            <width>32</width>
+            <height>23</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>32</width>
+            <height>23</height>
+           </size>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="2" column="0">
+       <layout class="QGridLayout" name="gridLayout2">
+        <item row="0" column="2">
+         <widget class="QPushButton" name="pushButton2">
+          <property name="minimumSize">
+           <size>
+            <width>32</width>
+            <height>23</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>32</width>
+            <height>23</height>
+           </size>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLabel" name="label2">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(186, 223, 51);
+font: 10pt &quot;Gill Sans MT&quot;;
+border-radius: 0px;</string>
+          </property>
+          <property name="text">
+           <string>  KYROVET® Florbiotico X 50ml</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="4" column="0">
+       <layout class="QGridLayout" name="gridLayout4">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label4">
+          <property name="styleSheet">
+           <string notr="true">border-radius: 0px;
+font: 10pt &quot;Gill Sans MT&quot;;
+background-color: rgb(186, 223, 51);</string>
+          </property>
+          <property name="text">
+           <string>  VICAR® Panamicina X 500ml</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QPushButton" name="pushButton4">
+          <property name="minimumSize">
+           <size>
+            <width>32</width>
+            <height>23</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>32</width>
+            <height>23</height>
+           </size>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="3" column="0">
+       <layout class="QGridLayout" name="gridLayout3">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label3">
+          <property name="styleSheet">
+           <string notr="true">border-radius: 0px;
+font: 10pt &quot;Gill Sans MT&quot;;
+background-color: rgb(186, 223, 51);</string>
+          </property>
+          <property name="text">
+           <string>  KYROVET® Kyropen X 12'UI</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QPushButton" name="pushButton3">
+          <property name="minimumSize">
+           <size>
+            <width>32</width>
+            <height>23</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>32</width>
+            <height>23</height>
+           </size>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="1" column="1">
+       <layout class="QGridLayout" name="gridLayout7">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label7">
+          <property name="styleSheet">
+           <string notr="true">border-radius: 0px;
+font: 10pt &quot;Gill Sans MT&quot;;
+background-color: rgb(186, 223, 51);
+</string>
+          </property>
+          <property name="text">
+           <string>  AGITA® 1GB Sobre X 20g</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QPushButton" name="pushButton7">
+          <property name="minimumSize">
+           <size>
+            <width>32</width>
+            <height>23</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>32</width>
+            <height>23</height>
+           </size>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="5" column="0">
+       <layout class="QGridLayout" name="gridLayout5">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label5">
+          <property name="styleSheet">
+           <string notr="true">border-radius: 0px;
+font: 10pt &quot;Gill Sans MT&quot;;
+background-color: rgb(186, 223, 51);
+</string>
+          </property>
+          <property name="text">
+           <string>  LIVERDET® Oxitetraciclina X 500ml</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QPushButton" name="pushButton5">
+          <property name="minimumSize">
+           <size>
+            <width>32</width>
+            <height>23</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>32</width>
+            <height>23</height>
+           </size>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="6" column="0">
+       <layout class="QGridLayout" name="gridLayout6">
+        <item row="0" column="1">
+         <widget class="QPushButton" name="pushButton6">
+          <property name="minimumSize">
+           <size>
+            <width>32</width>
+            <height>23</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>32</width>
+            <height>23</height>
+           </size>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="label6">
+          <property name="styleSheet">
+           <string notr="true">border-radius: 0px;
+font: 10pt &quot;Gill Sans MT&quot;;
+background-color: rgb(186, 223, 51);</string>
+          </property>
+          <property name="text">
+           <string>  VETERLAND® Neo Tetramiland X 500gr</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QScrollArea" name="scrollArea">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>300</y>
+      <width>451</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(231, 202, 143);
+border-radius: 6px</string>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>451</width>
+       <height>241</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout"/>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox2">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>300</y>
+      <width>361</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>221</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font:15pt</string>
+     </property>
+     <property name="text">
+      <string>Datos de compra</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>50</y>
+       <width>311</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="0" column="0">
+       <widget class="QLabel" name="labelCedula">
+        <property name="styleSheet">
+         <string notr="true">font:13pt</string>
+        </property>
+        <property name="text">
+         <string>Cédula:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <spacer name="verticalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="lineEditCedula"/>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="labelEfectivo">
+        <property name="styleSheet">
+         <string notr="true">font:13pt</string>
+        </property>
+        <property name="text">
+         <string>Efectivo:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="lineEditEfectivo"/>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>540</y>
+      <width>451</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>450</width>
+       <height>33</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="1">
+       <widget class="QLabel" name="labelPrecio">
+        <property name="minimumSize">
+         <size>
+          <width>151</width>
+          <height>31</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>151</width>
+          <height>31</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font:14pt;
+
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QPushButton" name="pushButtonPagar">
+        <property name="minimumSize">
+         <size>
+          <width>138</width>
+          <height>31</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>138</width>
+          <height>31</height>
+         </size>
+        </property>
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt;</string>
+        </property>
+        <property name="text">
+         <string>PAGAR</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="labelPagar">
+        <property name="minimumSize">
+         <size>
+          <width>147</width>
+          <height>31</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>147</width>
+          <height>31</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font:14pt;
+
+</string>
+        </property>
+        <property name="text">
+         <string> TOTAL A PAGAR: </string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>550</y>
+      <width>350</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_3">
+     <item row="0" column="0">
+      <widget class="QPushButton" name="pushButtonNuevaCompra">
+       <property name="minimumSize">
+        <size>
+         <width>171</width>
+         <height>31</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>171</width>
+         <height>31</height>
+        </size>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt;</string>
+       </property>
+       <property name="text">
+        <string>NUEVA COMPRA</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QPushButton" name="pushButtonFacturas">
+       <property name="minimumSize">
+        <size>
+         <width>171</width>
+         <height>31</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>171</width>
+         <height>31</height>
+        </size>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt;</string>
+       </property>
+       <property name="text">
+        <string>VER FACTURAS</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
